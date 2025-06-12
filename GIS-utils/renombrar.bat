@@ -15,7 +15,7 @@ setlocal enabledelayedexpansion
 ::   - Esta operación es destructiva (borra archivos .qmd).
 ::     Se recomienda hacer una copia de seguridad en caso de querer mantenerlos.
 ::
-:: Autor: 95sFran
+:: Autor: 95devFran
 :: --------------------------------------------------------------
 
 REM Recorre todas las carpetas desde la actual
