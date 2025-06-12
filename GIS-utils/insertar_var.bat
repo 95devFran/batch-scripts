@@ -15,7 +15,7 @@ setlocal enabledelayedexpansion
 :: Precaución:
 ::   - El archivo se sobrescribe directamente. Haz copia si es necesario.
 ::
-:: Autor: 95sFran
+:: Autor: 95devFran
 :: --------------------------------------------------------------
 
 REM Recorre todos los archivos .js desde esta carpeta
