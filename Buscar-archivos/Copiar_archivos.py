@@ -1,3 +1,16 @@
+"""
+Este script recorre una estructura de carpetas (accediendo a las distintas subcarpetas) que contiene archivos con la extensión que queremos encontrar.
+Dentro de cada carpeta, busca archivos cuyo nombre:
+  - Empiece por un nombre concreto, o conjunto de caracteres específico.
+  - O empiece por un nombre general de interés.
+
+Lógica:
+- Si encuentra un archivo cuyo nombre coincide con el establecido por nosotros (sin importar tildes o mayúsculas), lo selecciona.
+- Si no, selecciona los que empiezan por el nombre general de interés.
+- Copia esos archivos (junto a sus archivos auxiliares en caso de tenerlos) en una carpeta de destino.
+"""
+
+
 import os
 import shutil
 
